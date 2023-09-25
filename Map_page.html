@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<link
+			rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/instruments.css" />
+		<link rel="stylesheet" href="./css/news.css" />
+		<link rel="stylesheet" href="/css/leaflet_new.css">
+		<script
+			defer src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js">
+		</script>
+		<script defer type="module" src="./js/script_copy.js"></script>
+		<title>CELESTE MAP</title>
+	</head>
+	<body>
+		<header>
+			<img src="./img/players/main.png" alt="Аватарка персонажа" />
+			<div class="profile__buttons">
+				<button id="profile-reg">Create account</button>
+				<button id="profile-login">Login</button>
+				<button id="profile-edit">Edit profile</button>
+			</div>
+		</header>
+		<main>
+			<div id="map"></div>
+		</main>
+		<footer id="menuf">
+			<div class="menu__instruments">
+				<h2>Collectables</h2>
+				<div class="options markers_grid">
+					<input type="checkbox" id="strawbbery_checkbox" >
+					<input type="checkbox" id="winged_strawbbery_checkbox" >              
+					<input type="checkbox" id="heart_checkbox" >
+					<img src="img/berry/Strawberry.svg" alt="">
+					<img src="img/berry/winged_Strawberry.png" alt="">
+					<img src="img/berry/Heart.png" alt="">
+				</div>
+
+				<h2>Levels</h2>
+				<div class="levels_grid">
+					<button data-map-id="map1" id="b1">1</button>
+					<button data-map-id="map2" id="b2">2</button>
+					<button data-map-id="map3" id="b3" disabled>3</button>
+					<button data-map-id="map4" id="b4" disabled>4</button>
+					<button data-map-id="map5" id="b5" disabled>5</button>
+					<button data-map-id="map6" id="b6" disabled>6</button>
+					<button data-map-id="map7" id="b7" disabled>7</button>
+					<button data-map-id="map8" id="b8" disabled>8</button>
+				</div>
+
+				<h2>Methods</h2>
+				<div class="options methods_grid">
+					<input type="checkbox">
+					<input type="checkbox">              
+					<span>Wave<br>dashes</span>
+					<span>Wall<br>dashes</span>
+				</div>
+			</div>
+			<div class="menu__news">
+				<h1>NEWS</h1>
+				<div class="scroll">
+					<div class="nickname">
+						<img src="img/players/main.png" alt="">
+						<h2>StarliSeeker</h2>
+					</div> 
+						<p>Celeste Conquers the Skies! A player using the pseudonym 'StarClimber' has collected all the golden strawberries in the latest Celeste update, setting a speedrun record for the secret level</p>					
+					<div class="nickname">
+						<img src="img/players/Woman.jpeg" alt="">
+						<h2>Menicrop</h2>
+					</div> 
+						<p>Celeste's Event of the Year: A friendly race between the 'MountainMasters' and 'CloudChasers' clans ended in an impressive tie as both reached the summit simultaneously.</p>					
+					<div class="nickname">
+						<img src="img/players/Anime001.jpg" alt="">
+						<h2>Cherkynnnn</h2>
+					</div> 
+					<div class="tip__video">
+						<iframe src="https://www.youtube.com/embed/-9Rbs9Ergi8?si=khhFRhL6aF0pUSaR" frameborder="0" allow="encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</div>
+					<div class="nickname">
+						<img src="img/players/2.png" alt="">
+						<h2>MirMiru</h2>
+					</div> 
+					<p>Celeste Invites Players to a Grand Event! This weekend, the game will host a speedrunning festival with unique challenges and rewards for the top climbers.</p>		
+				</div>
+				<div class="socials">
+					<a href="https://vk.com/"><img src="img/Icons/VK_icon.svg" alt="" srcset=""></a>
+					<a href="https://www.reddit.com/r/celestegame/comments/i9bb8w/i_made_a_hollow_knight_style_map_of_the_forsaken/"><img src="img/Icons/Reddit_icon.svg" alt="" srcset=""></a>
+					<a href="https://discord.com/"><img src="img/Icons/Discord_icon.svg" alt="" srcset=""></a>
+				</div>
+			</div>
+			<div class="menu">
+				<button id="instruments">Instruments</button>
+				<button id="news">News</button>
+			</div>
+		</footer>
+	</body>
+</html>

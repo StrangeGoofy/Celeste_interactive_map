@@ -1,0 +1,23 @@
+.leaflet-marker-icon:hover {
+	filter: drop-shadow(0 1px 0 white) drop-shadow(0 1px 0 white);
+}
+
+.leaflet-popup-content-wrapper {
+	background-color: var(--back-back-color);
+	max-width: max-content;
+	border-radius: 0;
+    font-family: 'Renogare';    
+    font-size: 16px;
+}
+
+.leaflet-popup-content-wrapper span{
+    font-size: 24px;
+}
+
+.leaflet-popup-content-wrapper p {
+	margin: 10px 0;
+}
+
+.leaflet-popup-tip-container {
+    font-family: 'Renogare';
+} 

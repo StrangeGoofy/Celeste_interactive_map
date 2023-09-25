@@ -1,0 +1,104 @@
+.menu__instruments {
+	opacity: 0;
+
+	margin: 20px;
+	width: 40vh;
+	min-width: 320px;
+	max-width: 450px;
+    height: 70vh;
+	position: fixed;
+	bottom: 55px;
+	left: 0;
+	z-index: 2;
+
+	overflow: hidden;
+	transition: opacity 0.1s ease, max-height 0.1s ease;
+	background-color: var(--back-back-color);
+
+	display: flex;
+    flex-direction: column;
+
+	text-align: center;
+
+    overflow: auto;
+}
+
+.menu__instruments h2{
+	padding: 5px;
+    border-bottom: 2px solid black;
+}
+
+.menu__instruments input{
+    accent-color: #0F1443;
+}
+
+.menu__instruments.active {
+	opacity: 1;
+	max-height: 100%;
+}
+
+
+.markers_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.markers_grid input{
+    height: 40px;
+}
+
+.markers_grid img{
+    height: 50px;
+    margin: auto;
+}
+
+.levels_grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+
+    gap: 5px;
+}
+
+.levels_grid button{
+    height: 40px;
+    width: 40px;
+    margin: auto;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F7F1F6;
+    border: 2px solid #0F1443;
+    border-radius: 5px;
+
+	font-size: 24px;
+}
+
+.methods_grid{
+	width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto 40px auto;
+}
+
+.methods_grid input{
+    height: 40px;
+}
+
+.methods_grid span{
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+

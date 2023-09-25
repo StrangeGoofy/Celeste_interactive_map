@@ -1,0 +1,49 @@
+.starter_wrapper{
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+
+    height: 100%;
+}
+
+#Starter_back{
+    background-image: url('../img/Starter_page_back.jpg');
+    /*
+     background-position: 120% 5%;
+    background-size: 110%; 
+    */
+}
+
+.Starter_page_content{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Starter_page_content span{
+    color: #EFE3EC;
+    text-align: center;
+}
+
+.description{
+    margin: 37px;
+}
+
+.giant_headline{
+    margin: 100px 80px 10px 80px;
+    font-size: 120px;
+    line-height: 120px;
+}
+
+.Starter_page_content button{
+    margin: 18px;
+    font-size: 32px;
+    height: 90px;
+    width: 300px;
+}
+
+#Open_map_b{
+    margin-top: 10%;
+}

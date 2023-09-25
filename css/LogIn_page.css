@@ -1,0 +1,79 @@
+#Login_back{
+    background-image: url('../img/LogIn_page_back.jpg');
+}
+
+.wrapper{
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    align-items: center;
+}
+
+
+.Login_page_content{
+    display: flex;
+    flex-direction: column;
+
+
+    margin-top: 30vh;
+
+    height: 30vh;
+    width: 400px;
+    background-color: #EFE3EC;
+}
+
+.choose_option{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.choose_option button{
+    width: 100%;
+    height: 60px;
+
+    border: none;
+    background-color: #EFE3EC;
+
+    font-size: 24px;
+}
+
+#CreateAcc_b{
+    background-color: #C2BACA;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px ;
+}
+
+form input{
+    border: none;
+    margin: 10px;
+
+    font-size: 24px;
+}
+
+.Login_page_content a{
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.Ok_b{
+    align-self: center;
+    width: 50px;
+}
+
+.wrapper footer {
+	flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+	left: auto;
+
+    width: 300px;
+}
